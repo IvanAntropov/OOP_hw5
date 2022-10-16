@@ -1,0 +1,4 @@
+{Ivan Antropov}=[+79123456789];
+{Anna Borisovna}=[+79123456789];
+{Vlad Tatarski}=[89987654321];
+{Andrey Vasnezcov}=[89123456789];
