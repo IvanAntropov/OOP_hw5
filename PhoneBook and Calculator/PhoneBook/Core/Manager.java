@@ -3,6 +3,7 @@ package PhoneBook.Core;
 import PhoneBook.Actions.AddPhone;
 import PhoneBook.Actions.Base.Action;
 import PhoneBook.Actions.DeletePhone;
+import PhoneBook.Actions.ImportPhones;
 import PhoneBook.Actions.ShowPhone;
 import PhoneBook.View.ConsoleReader;
 import PhoneBook.View.View;
@@ -14,7 +15,7 @@ public class Manager {
     ShowPhone shower;
     View viewer;
     ConsoleReader console = new ConsoleReader();
-    Action[] arrChoose = new Action[]{new AddPhone(),new ShowPhone(),new DeletePhone()};
+    Action[] arrChoose = new Action[]{new AddPhone(),new ShowPhone(),new DeletePhone(), new ImportPhones()};
 
     public Manager() {
         this.adder = new AddPhone();
