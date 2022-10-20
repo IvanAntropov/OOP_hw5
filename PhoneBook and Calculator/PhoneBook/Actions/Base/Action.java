@@ -24,6 +24,7 @@ public abstract class Action implements IAction {
 
     public Action() {
         super();
+
     }
 
     protected void read(){
